@@ -12,7 +12,7 @@
 ### 🔧 Correcciones específicas:  
 - ✔️ **Envío de medios en la cola:** Ajustes en `QueueOptionController.ts`, `QueueController.ts` y `wbotMessageListener.ts`.  
 - ✔️ **Corrección de error tipográfico en `Contact`:** Ajuste en `wbotMessageListener.ts` (Línea 2108).  
-- ✔️ **Corrección en la asignación de filas en Whaticket:**  
+- ✔️ **Corrección en la asignación del departamento en el CRM:**  
   - Se eliminó la restricción basada en regex.  
   - Ahora cualquier número válido puede ser ingresado sin importar la última respuesta del bot.  
 
@@ -78,7 +78,7 @@
 - ⏳ **Tiempo de prueba (Trial) ahora visible en el panel.**  
 - 💬 **Respuestas rápidas accesibles para todos los usuarios.**  
 - ☎️ **Los contactos muestran si el número es válido y su última interacción.**  
-- 📞 **Ahora se puede ver qué número está conectado a Whaticket.**  
+- 📞 **Ahora se puede ver qué número está conectado al CRM.**  
 - 🔄 **Botón para reiniciar conexiones.**  
 - 🎨 **Cambio de logo desde el panel de administración.**  
 - 🏢 **Nueva pestaña "Registrar Empresa".**  
