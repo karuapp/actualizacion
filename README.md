@@ -2,7 +2,7 @@
 
 ## 🚀 Versión 5.5.0 - 🗓️ *12/02/2024 (11:38)*  
 
-📢 **¡Atención!** En el **Drive** y en **GitHub** se encuentra el archivo `vipclub.zip` con nuevas correcciones.  
+📢 **¡Atención!** En el **Drive** y en **GitHub** se encuentra el archivo `crm-marcablancasaas.zip` con nuevas correcciones.  
 
 ### 🛠️ Archivos corregidos:  
 - `queues.ts`: ✅ Corrección en el envío de texto + imagen en campañas.  
@@ -16,7 +16,7 @@
   - Se eliminó la restricción basada en regex.  
   - Ahora cualquier número válido puede ser ingresado sin importar la última respuesta del bot.  
 
-📌 **¡Actualiza siguiendo los pasos de `plwatualizar.sh`!**  
+📌 **¡Actualiza siguiendo los pasos de `actualizar.sh`!**  
 
 ---
 
