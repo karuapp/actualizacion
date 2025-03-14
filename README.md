@@ -1,70 +1,76 @@
-# 📝 Log de Versões
-
-## 🚀 Versão 5.5.0 - 12/02/2024 (11:38)
-
-ATENÇÃO: Drive contem vipclub.zip com novas correções e github também:
-Arquivos corrigidos: queues.ts (Envio de texto + img nas campanhas); SendWhatsAppMedia.ts (Envio de Audio em respota rapidas); wbotMessageListener.ts (Correção MENU duplicado).
-
-*Faça a atualização seguindo passo a passo do plwatualizar.sh
-
-FIX: Envio de midia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
-FIX: ,Contact (Erro de digitação) "Linha 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;" (wbotMessageListener.ts)
-
-Correção do envio de fila WHATICKET:
-
-Removemos a verificação baseada em regex que impedia a seleção de filas após uma mensagem inválida. Agora, qualquer entrada numérica válida é aceita, independente da última mensagem enviada pelo bot.
+#📜 Registro de Versiones
 
 
-## 🚀 Versão 5.5.0 - 13/11/2024 (13:17)
+##🚀 Versión 5.5.0 - 🗓️ 12/02/2024 (11:38)
+📢 ¡Atención! En el Drive y en GitHub se encuentra el archivo vipclub.zip con nuevas correcciones.
 
-✅ Correção ao Redimensionar Área de Ticket: Erro corrigido ao redimensionar.  
-✅ Correção de toastError.js: Problema resolvido no `toastError.js`.  
-✅ Validação do Número no ContactModal: Validação aprimorada.  
-✅ Atualização OpenAI: Atualização para versão "openai": "3.3.0" e wbotMessageListener.ts.  
-✅ Correção nas Avaliações de 1 para 5: Ajuste nas avaliações de 1 a 5 estrelas.  
-✅ Mensagem de Avaliação Somente Quando o Ticket Estiver em Atendimento: Avaliações só aparecem quando o ticket está ativo.  
-✅ Horários Intercalados: Implementação de horários intercalados.  
-✅ Alteração de LOGO de Acordo com LIGHT e DARK: Logo ajustado conforme o tema.  
-✅ Inserido no Kanban e Reformulado
-✅ Fix Audio no iPhone (Não estava reproduzindo)
-✅ Correção Chat no modo Dark
-✅ Inserido pastas por empresas na "public"
 
-## 🚀 Versão 5.3.5 - 07/11/2024
+🛠️ Archivos corregidos:
 
-✅ Correção da Data de Vencimento no Topo: A data agora permanece fixa.  
-✅ Automação em Grupos: Não envia automações para grupos.  
-✅ Botão `disableBot`: Desabilita bots ou automações.  
-✅ Correção de Mensagem Citada: Erro corrigido nas mensagens citadas.  
-✅ Permissão para Conexões com Mesmo Nome: Permite conexões com o mesmo nome.  
-✅ Expiração de Conexões: Desconexão automática após vencimento da empresa.  
-✅ Seleção para Deletar Contatos: Opção de seleção para exclusão na página "Contatos".  
-✅ Correção no Envio de Áudio OGG em Respostas Rápidas: Envio de áudios corrigido.  
-✅ Visualização de Tickets Fechados por Operador: Aba removida do painel de usuários.  
-✅ Visualização de Grupos por Operador: Aba removida do painel de usuários.  
-✅ Atualização Financeira após Alteração de Plano: Valor ajustado automaticamente na lista do Financeiro.
+queues.ts: ✅ Corrección en el envío de texto + imagen en campañas.
+SendWhatsAppMedia.ts: ✅ Solución para envío de audios en respuestas rápidas.
+wbotMessageListener.ts: ✅ Se corrigió la duplicación en el menú.
+🔧 Correcciones específicas:
+✔️ Envío de medios en la cola: Ajustes en QueueOptionController.ts, QueueController.ts y wbotMessageListener.ts.
+✔️ Corrección de error tipográfico en Contact: Ajuste en wbotMessageListener.ts (Línea 2108).
+✔️ Corrección en la asignación de filas en Whaticket:
 
-## 🚀 Versão 5.2.6 - 31/08/2024
+Se eliminó la restricción basada en regex.
+Ahora cualquier número válido puede ser ingresado sin importar la última respuesta del bot.
+📌 ¡Actualiza siguiendo los pasos de plwatualizar.sh!
 
-✅ Fechar todos os tickets abertos ou em espera.
-✅ Reagir a uma mensagem.
-✅ Encaminhar mensagens para outro ticket.
-✅ Aparência do menu aprimorada.
-✅ Botão “Sair” adicionado ao menu.
-✅ Notificação quando uma mensagem é apagada no WhatsApp, informando no chat.
-✅ API atualizada.
-✅ Novo layout da página de login.
-✅ Indicação “Digitando” ou “Gravando” aparece no ticket, no canto inferior direito, ao lado do nome.
+🚀 Versión 5.5.0 - 🗓️ 13/11/2024 (13:17)
+✅ Correcciones y mejoras:
 
-## 24/07/2024
+🔄 Corrección al redimensionar el área de ticket.
+🛑 Solución de errores en toastError.js.
+📞 Validación mejorada en números dentro del ContactModal.
+🤖 Actualización de OpenAI: Versión "openai": "3.3.0" con mejoras en wbotMessageListener.ts.
+⭐ Ajuste en las evaluaciones (de 1 a 5 estrellas).
+📝 Mensajes de evaluación solo cuando el ticket esté activo.
+🕰️ Implementación de horarios intercalados.
+🎨 Cambio de logo automático según modo Light/Dark.
+📌 Integración en Kanban y rediseño de interfaz.
+🔊 Corrección de audio en iPhone.
+🌙 Corrección en el chat modo Dark.
+📂 Se añadió la opción de carpetas separadas por empresa en "public".
+🚀 Versión 5.3.5 - 🗓️ 07/11/2024
+✅ Correcciones y nuevas funciones:
 
-✅ Fizemos correção no Vcard
-✅ Função de habilitar e desabilitar novos registros
-✅ Tempo de Trial disponível no Painel
-✅Respostas rápidas visualizadas por todos os usuários
-✅ Contatos agora aparece se é um número ok e o horário da última interação
-✅ Agora é possível ver o número que está conectado no Whaticket
-✅ Botão para reiniciar conexões adicionado
-✅ Alterar logo pelo Painel
-✅ Adicionado nova ABA Cadastrar Empresa
-✅ Add Opção Plano Interno
+📅 La fecha de vencimiento ahora permanece fija en la parte superior.
+🚫 Las automatizaciones ya no se ejecutan en grupos.
+🔧 Nuevo botón disableBot para desactivar bots o automatizaciones.
+💬 Corrección en mensajes citados.
+🔄 Permiso para conexiones con el mismo nombre.
+⏳ Las conexiones expiran automáticamente cuando vence la empresa.
+🗑️ Nueva opción para eliminar contactos en la página de "Contactos".
+🔊 Corrección en el envío de audios OGG en respuestas rápidas.
+👀 Los tickets cerrados por un operador ya no se muestran en su panel.
+📑 Los grupos ahora solo son visibles para operadores con permisos.
+💰 Actualización automática en Finanzas tras cambiar un plan.
+🚀 Versión 5.2.6 - 🗓️ 31/08/2024
+✅ Novedades:
+
+🔒 Cerrar todos los tickets abiertos o en espera.
+😊 Posibilidad de reaccionar a un mensaje.
+📤 Encaminamiento de mensajes a otro ticket.
+🎨 Mejoras en el diseño del menú.
+🚪 Nuevo botón "Salir" en el menú.
+🔔 Notificación cuando un mensaje es eliminado en WhatsApp.
+🚀 API actualizada.
+🔑 Nuevo diseño en la página de inicio de sesión.
+✍️ Indicadores de "Escribiendo" o "Grabando" dentro del ticket.
+🗓️ 24/07/2024
+✅ Otras correcciones y mejoras:
+
+🆕 Corrección en la visualización de VCard.
+🔄 Función para habilitar/deshabilitar nuevos registros.
+⏳ Tiempo de prueba (Trial) ahora visible en el panel.
+💬 Respuestas rápidas accesibles para todos los usuarios.
+☎️ Los contactos muestran si el número es válido y su última interacción.
+📞 Ahora se puede ver qué número está conectado a Whaticket.
+🔄 Botón para reiniciar conexiones.
+🎨 Cambio de logo desde el panel de administración.
+🏢 Nueva pestaña "Registrar Empresa".
+📊 Opción para planes internos.
+🔄 Mantente actualizado y sigue las instrucciones de cada versión para evitar problemas. 🚀🔥
