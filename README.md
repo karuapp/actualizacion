@@ -3,7 +3,7 @@ Marca Blanca SAAS https://marcablancasaas.com
 
 # 📜 Registro de Versiones
 
-## 🚀 Versión 5.5.0 - 🗓️ *12/02/2024 (11:38)*  
+## 🚀 Versión 5.5.0 - 🗓️ *14/03/2025 (11:38)*  
 
 📢 **¡Atención!** En el **Drive** y en **GitHub** se encuentra el archivo `crm-marcablancasaas.zip` con nuevas correcciones.  
 
